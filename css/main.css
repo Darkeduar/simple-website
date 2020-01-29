@@ -48,7 +48,6 @@ table {
       grid-template-rows: 3fr 1fr 10fr;
       grid-template-areas: ".     logo    ." "bar     bar    bar" ".     main    .";
   height: 100vh;
-  margin: 2em;
 }
 
 header {
@@ -74,5 +73,14 @@ body {
   height: 100vh;
   background-color: #292929;
   color: #ffffff;
+}
+
+nav {
+  background-color: #185bc0;
+  text-align: center;
+}
+
+nav ul {
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
