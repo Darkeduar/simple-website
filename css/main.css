@@ -39,12 +39,6 @@ table {
   border-spacing: 0;
 }
 
-body {
-  height: 100vh;
-  background-color: #292929;
-  color: #ffffff;
-}
-
 .grid-wrapper {
   display: -ms-grid;
   display: grid;
@@ -63,12 +57,22 @@ header {
   grid-area: logo;
 }
 
-.navigation {
+nav {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: bar;
-  background: url("/images/banner.png") no-repeat;
-  background-size: cover;
+}
+
+main {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: main;
+}
+
+body {
+  height: 100vh;
+  background-color: #292929;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

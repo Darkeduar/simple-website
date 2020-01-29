@@ -1,0 +1,24 @@
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 9fr 1.5fr;
+    grid-template-rows: 3fr 1fr 10fr;
+    grid-template-areas:
+    ".     logo    ."
+    "bar     bar    bar"
+    ".     main    .";
+    height: 100vh;
+    margin: 2em;
+}
+
+
+header {
+    grid-area: logo;
+}
+
+nav {
+    grid-area: bar;
+}
+
+main {
+    grid-area: main;
+}

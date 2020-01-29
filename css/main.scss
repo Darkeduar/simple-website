@@ -1,33 +1,8 @@
 @import "_reset.scss";
+@import "_layout.scss";
 
 body {
     height: 100vh;
     background-color: #292929;
     color: #ffffff;
-}
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: 1.5fr 9fr 1.5fr;
-    grid-template-rows: 3fr 1fr 10fr;
-    grid-template-areas:
-    ".     logo    ."
-    "bar     bar    bar"
-    ".     main    .";
-    height: 100vh;
-    margin: 2em;
-}
-
-
-header {
-    grid-area: logo;
-}
-
-.navigation{
-    grid-area: bar;
-    background: url("/images/banner.png") no-repeat;
-    background-size: cover;
-}
-
-nav {
-
 }
