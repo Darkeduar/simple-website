@@ -1,17 +1,21 @@
 .grid-wrapper {
     display: grid;
     grid-template-columns: 1.5fr 9fr 1.5fr;
-    grid-template-rows: 3fr 1fr 10fr;
+    grid-template-rows: 3fr 1fr 10fr 1fr;
     grid-template-areas:
     ".     logo    ."
     "bar     bar    bar"
-    ".     main    .";
+    ".     main    ."
+    ".     footer    .";
     height: 100vh;
+    align-items: center;
 }
 
 
 header {
     grid-area: logo;
+    justify-self: center;
+
 }
 
 nav {
@@ -20,4 +24,10 @@ nav {
 
 main {
     grid-area: main;
+    justify-self: center;
+}
+
+footer {
+    grid-area: footer;
+    justify-self: center;
 }
